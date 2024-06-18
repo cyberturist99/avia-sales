@@ -8,7 +8,7 @@ import {
   toggleAll,
   fetchTickets,
   fetchSearchId
-} from '../../store.js';
+} from '../../redux/store/store';
 
 import classes from './AsideMenu.module.scss';
 

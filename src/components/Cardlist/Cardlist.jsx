@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { connect, useSelector } from 'react-redux';
 import { Spin, Alert } from 'antd';
 
-import { fetchSearchId, fetchTickets } from '../../store';
+import { fetchSearchId, fetchTickets } from '../../redux/store/store';
 import Card from '../Card/Card';
 
 import classes from './Cardlist.module.scss';
